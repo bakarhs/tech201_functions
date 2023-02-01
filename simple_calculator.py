@@ -19,7 +19,13 @@ print(calculator("/", 81, 5))
 
 # using functions to convert distances
 
-def convert(num1: float, units) -> float:
+def convert(units, num1: float) -> float:
     if units == "cm":
-        return num1 * 10
-    else
+        return (num1 / 10)
+    elif units == "m":
+        return (num1 * 3.2)
+    else:
+        print("Invalid")
+
+print(convert("cm", 260))
+print(convert("m", 1))
