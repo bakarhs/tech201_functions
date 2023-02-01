@@ -6,7 +6,7 @@
 
 # def print_something():  # def = define
 #     print("Something has been printed")
-
+#
 # print_something()
 
 # Functions and arguments
@@ -14,9 +14,9 @@
 # def print_something(print_string):
 #     print(print_string)
 #
-# print_something("this is my variable")
+# print_something("This is my variable")
 #
-# print_something("this is the second time i called this function")
+# print_something("This is the second time i called this function")
 
 # Naming arguments are very important as they can be confusing later on
 # in java:
@@ -61,17 +61,17 @@
 #
 # greeting(24601)
 
-# def division(num1: int, num2: int) -> float:
-#     return num1 / num2
-#
-# print(division(9,3))
-# print(type(division(9,3)))
-#
-# def division(num1: int = 6, num2: int = 3) -> float:
-#     return num1 / num2
-#
-# print(division())
-# print(type(division(9,3)))
+def division(num1: int, num2: int) -> float:
+    return num1 / num2
+
+print(division(9,3))
+print(type(division(9,3)))
+
+def division(num1: int = 6, num2: int = 3) -> float:
+    return num1 / num2
+
+print(division())
+print(type(division(9,3)))
 
 # Function best practice
 
